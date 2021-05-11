@@ -14,19 +14,9 @@ body {
 :root {
   --secondary-font: Raleway;
 }
+/*=====HEADER=====*/
 .header {
   font-family: Roboto, sans-serif;
-}
-.logo {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.17;
-  letter-spacing: 3;
-  color: var(--color-logo-btn-accent);
-}
-.logo-studio {
-  color: #000000;
 }
 .nav-item {
   font-weight: 500;
@@ -52,11 +42,8 @@ body {
 .contact-list {
   color: var(--second-colour-for-text);
 }
-.section-title {
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 3;
-}
+/*======END HEADER=====*/
+/*======SECTION HERO=====*/
 .slogan {
   font-family: inherit;
   font-weight: 900;
@@ -80,6 +67,8 @@ body {
   color: var(--accent-text-for-btn);
   background-color: #188ce8;
 }
+/*======SECTION HERO END=====*/
+/*======SECTION FEATURES=====*/
 .subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -92,6 +81,8 @@ body {
   letter-spacing: 3;
   color: var(--second-colour-for-text);
 }
+/*======SECTION FEATURES END=====*/
+/*======SECTION OUR TEAM=====*/
 .member-name {
   font-weight: 500;
   font-size: 16px;
@@ -104,6 +95,8 @@ body {
   letter-spacing: 3;
   color: var(--second-colour-for-text);
 }
+/*======SECTION OUR TEAM END=====*/
+/*======FOOTER=====*/
 .footer {
   font-size: 14px;
   line-height: 1.71;
@@ -120,6 +113,39 @@ body {
 .all-contacts:focus {
   color: var(--color-logo-btn-accent);
 }
+/*======FOOTER END=====*/
+
+/*======LIST PROJECTS=====*/
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 6;
+}
+.project-type {
+  font-size: 16;
+  line-height: 1.87;
+  letter-spacing: 3;
+  color: var(--second-colour-for-text);
+}
+/*======LIST PROJECTS END=====*/
+/*======COMPONETS=====*/
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 3;
+  color: var(--color-logo-btn-accent);
+}
+.logo-studio {
+  color: #000000;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 3;
+}
 .filter-button {
   background-color: #f5f4fa;
   font-weight: 500;
@@ -133,18 +159,6 @@ body {
   background-color: var(--color-logo-btn-accent);
   color: var(--accent-text-for-btn);
 }
-.project-name {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 6;
-}
-.project-type {
-  font-size: 16;
-  line-height: 1.87;
-  letter-spacing: 3;
-  color: var(--second-colour-for-text);
-}
 .link {
   text-decoration: none;
 }
@@ -154,3 +168,4 @@ body {
 a {
   color: inherit;
 }
+/*======COMPONETS END=====*/
