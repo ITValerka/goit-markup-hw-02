@@ -2,6 +2,15 @@ body {
   font-family: Roboto, sans-serif;
   color: #212121;
 }
+:root {
+  --color-logo-btn-accent: #2196f3;
+}
+:root {
+  --second-colour-for-text: #757575;
+}
+:root {
+  --accent-text-for-btn: #ffffff;
+}
 .header {
   font-family: Roboto, sans-serif;
 }
@@ -11,7 +20,7 @@ body {
   font-size: 26px;
   line-height: 1.17;
   letter-spacing: 3;
-  color: #2196f3;
+  color: var(--color-logo-btn-accent);
 }
 .logo-studio {
   color: #000000;
@@ -25,7 +34,7 @@ body {
 }
 .nav-item:hover,
 .nav-item:focus {
-  color: #2196f3;
+  color: var(--color-logo-btn-accent);
 }
 .contact-item {
   font-weight: 500;
@@ -35,10 +44,10 @@ body {
 }
 .contact-item:hover,
 .contact-item:focus {
-  color: #2196f3;
+  color: var(--color-logo-btn-accent);
 }
 .contact-list {
-  color: #757575;
+  color: var(--second-colour-for-text);
 }
 .section-title {
   font-size: 36px;
@@ -59,13 +68,13 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 6;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--accent-text-for-btn);
+  background-color: var(--color-logo-btn-accent);
   cursor: pointer;
 }
 .make-order:hover,
 .make-order:focus {
-  color: #ffffff;
+  color: var(--accent-text-for-btn);
   background-color: #188ce8;
 }
 .subtitle {
@@ -78,7 +87,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 3;
-  color: #757575;
+  color: var(--second-colour-for-text);
 }
 .member-name {
   font-weight: 500;
@@ -90,7 +99,7 @@ body {
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 3;
-  color: #757575;
+  color: var(--second-colour-for-text);
 }
 .footer {
   font-size: 14px;
@@ -102,11 +111,11 @@ body {
 }
 .contact-item-map:hover,
 .contact-item-map:focus {
-  color: #2196f3;
+  color: var(--color-logo-btn-accent);
 }
 .all-contacts:hover,
 .all-contacts:focus {
-  color: #2196f3;
+  color: var(--color-logo-btn-accent);
 }
 .filter-button {
   background-color: #f5f4fa;
@@ -118,8 +127,8 @@ body {
 }
 .filter-button:hover,
 .filter-button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--color-logo-btn-accent);
+  color: var(--accent-text-for-btn);
 }
 .project-name {
   font-weight: 700;
@@ -131,7 +140,7 @@ body {
   font-size: 16;
   line-height: 1.87;
   letter-spacing: 3;
-  color: #757575;
+  color: var(--second-colour-for-text);
 }
 .link {
   text-decoration: none;
