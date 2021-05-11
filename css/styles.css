@@ -133,11 +133,11 @@ body {
   letter-spacing: 3;
   color: #757575;
 }
-ul {
-  list-style: none;
-}
-* {
+.link {
   text-decoration: none;
+}
+.list {
+  list-style: none;
 }
 a {
   color: inherit;
