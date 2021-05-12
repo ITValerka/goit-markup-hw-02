@@ -45,6 +45,7 @@ body {
 /*======END HEADER=====*/
 /*======SECTION HERO=====*/
 .slogan {
+  text-transform: uppercase;
   font-family: inherit;
   font-weight: 900;
   font-style: normal;
