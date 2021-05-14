@@ -22,7 +22,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
-  letter-spacing: 2;
+  letter-spacing: 0.02em;
   cursor: pointer;
 }
 .nav-item:hover,
@@ -33,7 +33,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
-  letter-spacing: 2;
+  letter-spacing: 0.02em;
 }
 .contact-item:hover,
 .contact-item:focus {
@@ -51,14 +51,14 @@ body {
   font-style: normal;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 6;
+  letter-spacing: 0.06em;
 }
 .make-order {
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 6;
+  letter-spacing: 0.06em;
   color: var(--accent-text-for-btn);
   background-color: var(--color-logo-btn-accent);
   cursor: pointer;
@@ -77,12 +77,12 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .subtitle-content {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 3;
+  letter-spacing: 0.03em;
   color: var(--second-colour-for-text);
 }
 /*======SECTION FEATURES END=====*/
@@ -91,23 +91,30 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
-  letter-spacing: 3;
+  letter-spacing: 0.03em;
 }
 .member-position {
   font-size: 16px;
   line-height: 1.17;
-  letter-spacing: 3;
+  letter-spacing: 0.03;
   color: var(--second-colour-for-text);
 }
 /*======SECTION OUR TEAM END=====*/
 /*======FOOTER=====*/
 .footer {
+  font-family: Roboto;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 3;
+  letter-spacing: 0.03em;
 }
 .all-contacts {
   font-style: normal;
+}
+.contact-item-map {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .contact-item-map:hover,
 .contact-item-map:focus {
@@ -124,12 +131,12 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 6;
+  letter-spacing: 0.06em;
 }
 .project-type {
   font-size: 16;
   line-height: 1.87;
-  letter-spacing: 3;
+  letter-spacing: 0.03em;
   color: var(--second-colour-for-text);
 }
 /*======LIST PROJECTS END=====*/
@@ -139,7 +146,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
-  letter-spacing: 3;
+  letter-spacing: 0.03em;
   color: var(--color-logo-btn-accent);
 }
 .logo-studio {
@@ -148,14 +155,15 @@ body {
 .section-title {
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 3;
+  letter-spacing: 0.03em;
 }
 .filter-button {
+  font-family: Roboto;
   background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 3;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
 .filter-button:hover,
